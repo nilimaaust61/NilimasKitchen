@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back1"
+    tools:context=".Dashboardesign">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <RelativeLayout
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/myDashBoardTextViewId"
+                android:text="My Choice List"
+                android:fontFamily="@font/kingthings_petrock_light"
+                android:textSize="30sp"
+                android:textColor="@color/RoyalBlue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+
+        </RelativeLayout>
+        <GridLayout
+            android:columnOrderPreserved="false"
+            android:alignmentMode="alignMargins"
+            android:rowCount="4"
+            android:columnCount="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp"
+                >
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:padding="16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center">
+                    <ImageView
+                        android:src="@drawable/dessert2"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        />
+                    <TextView
+                        android:id="@+id/dashboardtextviewid1"
+                        android:layout_marginTop="12dp"
+                        android:text="Dessert"
+                        android:fontFamily="@font/kingthings_petrock"
+
+                        android:textColor="@color/RoyalBlue"
+                        android:textSize="18sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp"
+                >
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:padding="16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center">
+                    <ImageView
+                        android:src="@drawable/thai"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        />
+
+                    <TextView
+                        android:id="@+id/dashboardtextviewid2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/kingthings_petrock"
+                        android:layout_marginTop="12dp"
+                        android:text="Thai Foods"
+                        android:textColor="@color/RoyalBlue"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp"
+                >
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:padding="16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center">
+                    <ImageView
+                        android:src="@drawable/rice"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        />
+                    <TextView
+                        android:id="@+id/dashboardtextviewid3"
+                        android:layout_marginTop="12dp"
+                        android:text="Chinese Food"
+
+                        android:fontFamily="@font/kingthings_petrock"
+                        android:textColor="@color/RoyalBlue"
+                        android:textSize="18sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp"
+                >
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:padding="16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center">
+                    <ImageView
+                        android:src="@drawable/pizza"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        />
+                    <TextView
+                        android:id="@+id/dashboardtextviewid4"
+                        android:layout_marginTop="12dp"
+                        android:text="Italian Foods"
+                        android:fontFamily="@font/kingthings_petrock"
+                        android:textColor="@color/RoyalBlue"
+                        android:textSize="18sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp"
+                >
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:padding="16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center">
+                    <ImageView
+                        android:src="@drawable/momos"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        />
+                    <TextView
+                        android:id="@+id/dashboardtextviewid5"
+                        android:layout_marginTop="12dp"
+                        android:text="Street Foods"
+                        android:fontFamily="@font/kingthings_petrock"
+                        android:textColor="@color/RoyalBlue"
+                        android:textSize="18sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp"
+                >
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:padding="16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center">
+                    <ImageView
+                        android:src="@drawable/taco12"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        />
+                    <TextView
+                        android:id="@+id/dashboardtextviewid6"
+                        android:layout_marginTop="12dp"
+                        android:text="Mexican Foods"
+                        android:fontFamily="@font/kingthings_petrock"
+                        android:textColor="@color/RoyalBlue"
+                        android:textSize="18sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp"
+                >
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:padding="16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center">
+                    <ImageView
+                        android:src="@drawable/burger"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        />
+                    <TextView
+                        android:id="@+id/dashboardtextviewid7"
+                        android:layout_marginTop="12dp"
+                        android:text="Junk Foods"
+                        android:fontFamily="@font/kingthings_petrock"
+                        android:textColor="@color/RoyalBlue"
+                        android:textSize="18sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp"
+                >
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:padding="16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center">
+                    <ImageView
+                        android:src="@drawable/bengali"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        />
+                    <TextView
+                        android:id="@+id/dashboardtextviewid8"
+                        android:layout_marginTop="12dp"
+                        android:text="Bengali Traditional"
+                        android:fontFamily="@font/kingthings_petrock"
+                        android:textColor="@color/RoyalBlue"
+                        android:textSize="20sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+        </GridLayout>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "145395394291",
+    "firebase_url": "https://nilimaskitchen-1cb11.firebaseio.com",
+    "project_id": "nilimaskitchen-1cb11",
+    "storage_bucket": "nilimaskitchen-1cb11.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:145395394291:android:270e4e30f8b61e65607986",
+        "android_client_info": {
+          "package_name": "com.example.nilimaskitchen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "145395394291-glfn9qk0u33j5c49068m4gmce798mo11.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDb3uNMTAAQE6r2ReGCf-u85YWLWQk6hBw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "145395394291-glfn9qk0u33j5c49068m4gmce798mo11.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
